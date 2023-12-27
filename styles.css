@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body{
@@ -158,6 +159,7 @@ body{
         border: solid 1px #ddc0a2;
         font-family: 'Raleway', sans-serif;
         padding: 10px 20px;
+        touch-action: manipulation;
     }
     
     .musica > div:active{
