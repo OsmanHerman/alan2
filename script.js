@@ -4,9 +4,11 @@ window.addEventListener("load", function () {
   const loader = document.querySelector('.loader');
   loader.style.display = 'none';
   document.body.classList.remove('hidden');
-  sound.play();
 });
 
+window.onload = function() {
+  sound.play();
+};
 
 
 //---------------------------
