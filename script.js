@@ -6,9 +6,9 @@ window.addEventListener("load", function () {
   document.body.classList.remove('hidden');
 });
 
-window.onload = function() {
+/*window.onload = function() {
   sound.play();
-};
+};*/
 
 
 //---------------------------
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function (){
 //M U S I C A
 //let sound = new Audio('./audio/Ed-Sheeran-Perfect.mp3');
 
-/*playBtn.addEventListener('click', () =>{
+playBtn.addEventListener('click', () =>{
   sound.play();
 })
 
@@ -75,7 +75,7 @@ pauseBtn.addEventListener('touchstart', () =>{
 
 pauseBtn.addEventListener('click', () =>{
   sound.pause();
-})*/
+})
 
 
 //L O A D E R
